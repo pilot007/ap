@@ -8,6 +8,7 @@
 
 import UIKit
 import Alamofire
+import SwiftyJSON
 
 class CampainVC: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
@@ -24,7 +25,7 @@ class CampainVC: UIViewController, UICollectionViewDataSource, UICollectionViewD
     
     override func viewDidLoad() {
         super.viewDidLoad()
- getKampanyaGetir()
+        getKampanyaGetir()
 
         // Do any additional setup after loading the view.
     }
