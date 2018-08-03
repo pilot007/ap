@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F3653648793A535D17FC9F8 /* Pods_asum_denemeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75D27A1C7EC2F37426843D4 /* Pods_asum_denemeTests.framework */; };
+		5AFB2CF9C51ACCF7C702DC3F /* Pods_asum_deneme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2EDA972B88F35A0C924705 /* Pods_asum_deneme.framework */; };
+		C90131C32105E976005E25D1 /* sideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90131C22105E976005E25D1 /* sideMenuVC.swift */; };
+		C90131C8210600C4005E25D1 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90131C6210600C4005E25D1 /* MenuCell.swift */; };
+		C90131C9210600C4005E25D1 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C90131C7210600C4005E25D1 /* MenuCell.xib */; };
+		C90131CE21074879005E25D1 /* profileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90131CD21074879005E25D1 /* profileVC.swift */; };
+		C90131D021074BA2005E25D1 /* BaseMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90131CF21074BA2005E25D1 /* BaseMenuController.swift */; };
+		C90131D22107512B005E25D1 /* restsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90131D12107512B005E25D1 /* restsVC.swift */; };
+		C90131D421075337005E25D1 /* offersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90131D321075337005E25D1 /* offersVC.swift */; };
+		C90131D621075394005E25D1 /* favsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90131D521075394005E25D1 /* favsVC.swift */; };
+		C90131D8210753D4005E25D1 /* helpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90131D7210753D4005E25D1 /* helpVC.swift */; };
+		C90131DA21075413005E25D1 /* settingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90131D921075413005E25D1 /* settingsVC.swift */; };
+		C90131DC2107545D005E25D1 /* logOutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90131DB2107545D005E25D1 /* logOutVC.swift */; };
+		C90131E521084F98005E25D1 /* WelcomeSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = C90131E421084F98005E25D1 /* WelcomeSlider.xib */; };
+		C90131E721084FA3005E25D1 /* WelcomeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90131E621084FA3005E25D1 /* WelcomeSlider.swift */; };
+		C90131ED2108A322005E25D1 /* MainPageFirstSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = C90131EC2108A322005E25D1 /* MainPageFirstSlider.xib */; };
+		C90131F02108A341005E25D1 /* MainPageFirstSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90131EF2108A341005E25D1 /* MainPageFirstSlider.swift */; };
+		C90131F7210B0A34005E25D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90131F6210B0A34005E25D1 /* User.swift */; };
+		C90131FA210B2975005E25D1 /* PopRests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90131F9210B2975005E25D1 /* PopRests.swift */; };
+		C90131FC210B297F005E25D1 /* PopRests.xib in Resources */ = {isa = PBXBuildFile; fileRef = C90131FB210B297F005E25D1 /* PopRests.xib */; };
+		C90131FF210B5183005E25D1 /* NearRests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90131FE210B5183005E25D1 /* NearRests.swift */; };
+		C9013201210B518D005E25D1 /* NearRests.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9013200210B518D005E25D1 /* NearRests.xib */; };
+		C92EA40C20F4D1E600050B77 /* FirstLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92EA40B20F4D1E600050B77 /* FirstLoginViewController.swift */; };
+		C92EA41220F5E97100050B77 /* BalooBhai-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C92EA41020F5E96C00050B77 /* BalooBhai-Regular.ttf */; };
+		C92EA41320F5E97400050B77 /* VarelaRound-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C92EA41120F5E96D00050B77 /* VarelaRound-Regular.ttf */; };
 		C94DCA8F20EA597600C0D69C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94DCA8E20EA597600C0D69C /* AppDelegate.swift */; };
 		C94DCA9120EA597600C0D69C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94DCA9020EA597600C0D69C /* ViewController.swift */; };
 		C94DCA9420EA597600C0D69C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94DCA9220EA597600C0D69C /* Main.storyboard */; };
@@ -14,6 +39,20 @@
 		C94DCA9920EA597700C0D69C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94DCA9720EA597700C0D69C /* LaunchScreen.storyboard */; };
 		C94DCAA420EA597700C0D69C /* asum_denemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94DCAA320EA597700C0D69C /* asum_denemeTests.swift */; };
 		C94DCAAF20EA597700C0D69C /* asum_denemeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94DCAAE20EA597700C0D69C /* asum_denemeUITests.swift */; };
+		C96FF26A2111E87900F5E31F /* Restoran.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96FF2692111E87900F5E31F /* Restoran.swift */; };
+		C96FF26C2114300C00F5E31F /* RestoranCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96FF26B2114300C00F5E31F /* RestoranCell.swift */; };
+		C96FF26E2114321B00F5E31F /* RestDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96FF26D2114321B00F5E31F /* RestDetailVC.swift */; };
+		C96FF270211435D900F5E31F /* RestoranS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96FF26F211435D900F5E31F /* RestoranS.swift */; };
+		C984E6F220FF52B9009E00C1 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C984E6F020FF52B8009E00C1 /* SWRevealViewController.m */; };
+		C984E6F420FF5905009E00C1 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C984E6F320FF5905009E00C1 /* HomeVC.swift */; };
+		C9B5A8F321107159003BA9B3 /* Kampanya.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B5A8F221107159003BA9B3 /* Kampanya.swift */; };
+		C9D2B6DA20F8D4DC002B6BEF /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D2B6D920F8D4DC002B6BEF /* signUpViewController.swift */; };
+		C9D2B6DD20F8D53E002B6BEF /* Logged.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9D2B6DC20F8D53E002B6BEF /* Logged.storyboard */; };
+		D6E10A5E860F674E95753637 /* Pods_asum_denemeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994B0E9AA5E6678DE11487C6 /* Pods_asum_denemeUITests.framework */; };
+		FEF363192114D2F8000E183C /* CampainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF363182114D2F8000E183C /* CampainVC.swift */; };
+		FEF3631C2114D5B1000E183C /* CampainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF3631B2114D5B1000E183C /* CampainViewCell.swift */; };
+		FEF3631E2114EB0C000E183C /* PopRestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF3631D2114EB0C000E183C /* PopRestVC.swift */; };
+		FEF363202114EB27000E183C /* PopRestViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF3631F2114EB27000E183C /* PopRestViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +73,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004F63FCFEF4B98C3CAC8B2C /* Pods-asum_denemeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asum_denemeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-asum_denemeTests/Pods-asum_denemeTests.release.xcconfig"; sourceTree = "<group>"; };
+		0D79689C2068C95E437E4CEB /* Pods-asum_denemeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asum_denemeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-asum_denemeUITests/Pods-asum_denemeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FD980578A868AA71CA52F48 /* Pods-asum_denemeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asum_denemeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-asum_denemeUITests/Pods-asum_denemeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		994B0E9AA5E6678DE11487C6 /* Pods_asum_denemeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_asum_denemeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1027923D8A5187AC51E3AB9 /* Pods-asum_deneme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asum_deneme.release.xcconfig"; path = "Pods/Target Support Files/Pods-asum_deneme/Pods-asum_deneme.release.xcconfig"; sourceTree = "<group>"; };
+		B75D27A1C7EC2F37426843D4 /* Pods_asum_denemeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_asum_denemeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B020E2C5B642AB15B43B6F /* Pods-asum_deneme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asum_deneme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-asum_deneme/Pods-asum_deneme.debug.xcconfig"; sourceTree = "<group>"; };
+		C90131C22105E976005E25D1 /* sideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sideMenuVC.swift; sourceTree = "<group>"; };
+		C90131C6210600C4005E25D1 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		C90131C7210600C4005E25D1 /* MenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		C90131CD21074879005E25D1 /* profileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileVC.swift; sourceTree = "<group>"; };
+		C90131CF21074BA2005E25D1 /* BaseMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMenuController.swift; sourceTree = "<group>"; };
+		C90131D12107512B005E25D1 /* restsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restsVC.swift; sourceTree = "<group>"; };
+		C90131D321075337005E25D1 /* offersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = offersVC.swift; sourceTree = "<group>"; };
+		C90131D521075394005E25D1 /* favsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favsVC.swift; sourceTree = "<group>"; };
+		C90131D7210753D4005E25D1 /* helpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpVC.swift; sourceTree = "<group>"; };
+		C90131D921075413005E25D1 /* settingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsVC.swift; sourceTree = "<group>"; };
+		C90131DB2107545D005E25D1 /* logOutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logOutVC.swift; sourceTree = "<group>"; };
+		C90131E421084F98005E25D1 /* WelcomeSlider.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeSlider.xib; sourceTree = "<group>"; };
+		C90131E621084FA3005E25D1 /* WelcomeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeSlider.swift; sourceTree = "<group>"; };
+		C90131EC2108A322005E25D1 /* MainPageFirstSlider.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainPageFirstSlider.xib; sourceTree = "<group>"; };
+		C90131EF2108A341005E25D1 /* MainPageFirstSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageFirstSlider.swift; sourceTree = "<group>"; };
+		C90131F6210B0A34005E25D1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C90131F9210B2975005E25D1 /* PopRests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopRests.swift; sourceTree = "<group>"; };
+		C90131FB210B297F005E25D1 /* PopRests.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopRests.xib; sourceTree = "<group>"; };
+		C90131FE210B5183005E25D1 /* NearRests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearRests.swift; sourceTree = "<group>"; };
+		C9013200210B518D005E25D1 /* NearRests.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NearRests.xib; sourceTree = "<group>"; };
+		C92EA40B20F4D1E600050B77 /* FirstLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLoginViewController.swift; sourceTree = "<group>"; };
+		C92EA41020F5E96C00050B77 /* BalooBhai-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BalooBhai-Regular.ttf"; sourceTree = "<group>"; };
+		C92EA41120F5E96D00050B77 /* VarelaRound-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VarelaRound-Regular.ttf"; sourceTree = "<group>"; };
 		C94DCA8B20EA597600C0D69C /* asum_deneme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = asum_deneme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94DCA8E20EA597600C0D69C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C94DCA9020EA597600C0D69C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +116,23 @@
 		C94DCAAA20EA597700C0D69C /* asum_denemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = asum_denemeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94DCAAE20EA597700C0D69C /* asum_denemeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asum_denemeUITests.swift; sourceTree = "<group>"; };
 		C94DCAB020EA597700C0D69C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C96FF2692111E87900F5E31F /* Restoran.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restoran.swift; sourceTree = "<group>"; };
+		C96FF26B2114300C00F5E31F /* RestoranCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoranCell.swift; sourceTree = "<group>"; };
+		C96FF26D2114321B00F5E31F /* RestDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestDetailVC.swift; sourceTree = "<group>"; };
+		C96FF26F211435D900F5E31F /* RestoranS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoranS.swift; sourceTree = "<group>"; };
+		C984E6EF20FF52B7009E00C1 /* asum_deneme-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "asum_deneme-Bridging-Header.h"; sourceTree = "<group>"; };
+		C984E6F020FF52B8009E00C1 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		C984E6F120FF52B9009E00C1 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		C984E6F320FF5905009E00C1 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		C9B5A8F221107159003BA9B3 /* Kampanya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kampanya.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C9D2B6D920F8D4DC002B6BEF /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		C9D2B6DC20F8D53E002B6BEF /* Logged.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Logged.storyboard; sourceTree = "<group>"; };
+		CB2EDA972B88F35A0C924705 /* Pods_asum_deneme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_asum_deneme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D315C3E61093CBF8A4192170 /* Pods-asum_denemeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asum_denemeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-asum_denemeTests/Pods-asum_denemeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FEF363182114D2F8000E183C /* CampainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampainVC.swift; sourceTree = "<group>"; };
+		FEF3631B2114D5B1000E183C /* CampainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampainViewCell.swift; sourceTree = "<group>"; };
+		FEF3631D2114EB0C000E183C /* PopRestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopRestVC.swift; sourceTree = "<group>"; };
+		FEF3631F2114EB27000E183C /* PopRestViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopRestViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AFB2CF9C51ACCF7C702DC3F /* Pods_asum_deneme.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3653648793A535D17FC9F8 /* Pods_asum_denemeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +156,107 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E10A5E860F674E95753637 /* Pods_asum_denemeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A151E870A1ACA06D7A80967 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8B020E2C5B642AB15B43B6F /* Pods-asum_deneme.debug.xcconfig */,
+				B1027923D8A5187AC51E3AB9 /* Pods-asum_deneme.release.xcconfig */,
+				D315C3E61093CBF8A4192170 /* Pods-asum_denemeTests.debug.xcconfig */,
+				004F63FCFEF4B98C3CAC8B2C /* Pods-asum_denemeTests.release.xcconfig */,
+				0D79689C2068C95E437E4CEB /* Pods-asum_denemeUITests.debug.xcconfig */,
+				5FD980578A868AA71CA52F48 /* Pods-asum_denemeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C90131CA210743B1005E25D1 /* MenuCell */ = {
+			isa = PBXGroup;
+			children = (
+				C90131C6210600C4005E25D1 /* MenuCell.swift */,
+				C90131C7210600C4005E25D1 /* MenuCell.xib */,
+			);
+			path = MenuCell;
+			sourceTree = "<group>";
+		};
+		C90131DD21084E64005E25D1 /* WelcomeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				C90131E421084F98005E25D1 /* WelcomeSlider.xib */,
+				C90131E621084FA3005E25D1 /* WelcomeSlider.swift */,
+			);
+			path = WelcomeSlider;
+			sourceTree = "<group>";
+		};
+		C90131EE2108A329005E25D1 /* MainPageFirstSlider */ = {
+			isa = PBXGroup;
+			children = (
+				C90131EC2108A322005E25D1 /* MainPageFirstSlider.xib */,
+				C90131EF2108A341005E25D1 /* MainPageFirstSlider.swift */,
+			);
+			path = MainPageFirstSlider;
+			sourceTree = "<group>";
+		};
+		C90131F1210B090B005E25D1 /* CustomObjects */ = {
+			isa = PBXGroup;
+			children = (
+				C90131F6210B0A34005E25D1 /* User.swift */,
+				C9B5A8F221107159003BA9B3 /* Kampanya.swift */,
+				C96FF2692111E87900F5E31F /* Restoran.swift */,
+				C96FF26F211435D900F5E31F /* RestoranS.swift */,
+			);
+			path = CustomObjects;
+			sourceTree = "<group>";
+		};
+		C90131F8210B2952005E25D1 /* PopRestsSlider */ = {
+			isa = PBXGroup;
+			children = (
+				C90131F9210B2975005E25D1 /* PopRests.swift */,
+				C90131FB210B297F005E25D1 /* PopRests.xib */,
+				FEF3631D2114EB0C000E183C /* PopRestVC.swift */,
+				FEF3631F2114EB27000E183C /* PopRestViewCell.swift */,
+			);
+			path = PopRestsSlider;
+			sourceTree = "<group>";
+		};
+		C90131FD210B516B005E25D1 /* NearRestsList */ = {
+			isa = PBXGroup;
+			children = (
+				C90131FE210B5183005E25D1 /* NearRests.swift */,
+				C9013200210B518D005E25D1 /* NearRests.xib */,
+			);
+			path = NearRestsList;
+			sourceTree = "<group>";
+		};
+		C915A7CE20EE2E73002A4473 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				FEF3631A2114D417000E183C /* Campains */,
+				C90131FD210B516B005E25D1 /* NearRestsList */,
+				C90131F8210B2952005E25D1 /* PopRestsSlider */,
+				C90131EE2108A329005E25D1 /* MainPageFirstSlider */,
+				C90131DD21084E64005E25D1 /* WelcomeSlider */,
+				C90131CA210743B1005E25D1 /* MenuCell */,
+				C96FF26B2114300C00F5E31F /* RestoranCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		C92EA40620F4CFA800050B77 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C984E6EB20FDDF73009E00C1 /* LoggedStoryBoard */,
+				C9D2B6DE20F8D5CE002B6BEF /* MainStoryBoard */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		C94DCA8220EA597600C0D69C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +264,8 @@
 				C94DCAA220EA597700C0D69C /* asum_denemeTests */,
 				C94DCAAD20EA597700C0D69C /* asum_denemeUITests */,
 				C94DCA8C20EA597600C0D69C /* Products */,
+				0A151E870A1ACA06D7A80967 /* Pods */,
+				FD68D686ACD63D85C8C74EC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +282,16 @@
 		C94DCA8D20EA597600C0D69C /* asum_deneme */ = {
 			isa = PBXGroup;
 			children = (
+				C984E6EE20FF5288009E00C1 /* SWReveal */,
+				C9D2B6DB20F8D510002B6BEF /* StoryBoards */,
+				C92EA40620F4CFA800050B77 /* Controllers */,
+				C915A7CE20EE2E73002A4473 /* CustomViews */,
+				C90131F1210B090B005E25D1 /* CustomObjects */,
 				C94DCA8E20EA597600C0D69C /* AppDelegate.swift */,
 				C94DCA9020EA597600C0D69C /* ViewController.swift */,
 				C94DCA9220EA597600C0D69C /* Main.storyboard */,
+				C92EA41020F5E96C00050B77 /* BalooBhai-Regular.ttf */,
+				C92EA41120F5E96D00050B77 /* VarelaRound-Regular.ttf */,
 				C94DCA9520EA597700C0D69C /* Assets.xcassets */,
 				C94DCA9720EA597700C0D69C /* LaunchScreen.storyboard */,
 				C94DCA9A20EA597700C0D69C /* Info.plist */,
@@ -125,6 +317,70 @@
 			path = asum_denemeUITests;
 			sourceTree = "<group>";
 		};
+		C984E6EB20FDDF73009E00C1 /* LoggedStoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C984E6F320FF5905009E00C1 /* HomeVC.swift */,
+				C90131C22105E976005E25D1 /* sideMenuVC.swift */,
+				C90131CD21074879005E25D1 /* profileVC.swift */,
+				C90131CF21074BA2005E25D1 /* BaseMenuController.swift */,
+				C90131D12107512B005E25D1 /* restsVC.swift */,
+				C90131D321075337005E25D1 /* offersVC.swift */,
+				C90131D521075394005E25D1 /* favsVC.swift */,
+				C90131D7210753D4005E25D1 /* helpVC.swift */,
+				C90131D921075413005E25D1 /* settingsVC.swift */,
+				C90131DB2107545D005E25D1 /* logOutVC.swift */,
+				C96FF26D2114321B00F5E31F /* RestDetailVC.swift */,
+			);
+			path = LoggedStoryBoard;
+			sourceTree = "<group>";
+		};
+		C984E6EE20FF5288009E00C1 /* SWReveal */ = {
+			isa = PBXGroup;
+			children = (
+				C984E6F120FF52B9009E00C1 /* SWRevealViewController.h */,
+				C984E6F020FF52B8009E00C1 /* SWRevealViewController.m */,
+				C984E6EF20FF52B7009E00C1 /* asum_deneme-Bridging-Header.h */,
+			);
+			path = SWReveal;
+			sourceTree = "<group>";
+		};
+		C9D2B6DB20F8D510002B6BEF /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				C9D2B6DC20F8D53E002B6BEF /* Logged.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		C9D2B6DE20F8D5CE002B6BEF /* MainStoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C92EA40B20F4D1E600050B77 /* FirstLoginViewController.swift */,
+				C9D2B6D920F8D4DC002B6BEF /* signUpViewController.swift */,
+			);
+			path = MainStoryBoard;
+			sourceTree = "<group>";
+		};
+		FD68D686ACD63D85C8C74EC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB2EDA972B88F35A0C924705 /* Pods_asum_deneme.framework */,
+				B75D27A1C7EC2F37426843D4 /* Pods_asum_denemeTests.framework */,
+				994B0E9AA5E6678DE11487C6 /* Pods_asum_denemeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEF3631A2114D417000E183C /* Campains */ = {
+			isa = PBXGroup;
+			children = (
+				FEF363182114D2F8000E183C /* CampainVC.swift */,
+				FEF3631B2114D5B1000E183C /* CampainViewCell.swift */,
+			);
+			path = Campains;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +388,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C94DCAB320EA597700C0D69C /* Build configuration list for PBXNativeTarget "asum_deneme" */;
 			buildPhases = (
+				669D0D3132CB4C1A4A9B4580 /* [CP] Check Pods Manifest.lock */,
 				C94DCA8720EA597600C0D69C /* Sources */,
 				C94DCA8820EA597600C0D69C /* Frameworks */,
 				C94DCA8920EA597600C0D69C /* Resources */,
+				CB349059BE0E17BCE71056C5 /* [CP] Embed Pods Frameworks */,
+				4AC33194C3E74EF45FFB1C4F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +408,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C94DCAB620EA597700C0D69C /* Build configuration list for PBXNativeTarget "asum_denemeTests" */;
 			buildPhases = (
+				44AB82F49900000585646897 /* [CP] Check Pods Manifest.lock */,
 				C94DCA9B20EA597700C0D69C /* Sources */,
 				C94DCA9C20EA597700C0D69C /* Frameworks */,
 				C94DCA9D20EA597700C0D69C /* Resources */,
+				BB5AD9A3478666AA546654C6 /* [CP] Embed Pods Frameworks */,
+				3037B6946E8082FD035432F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +429,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C94DCAB920EA597700C0D69C /* Build configuration list for PBXNativeTarget "asum_denemeUITests" */;
 			buildPhases = (
+				CBAAE0CF3B3BE649C02D4B8E /* [CP] Check Pods Manifest.lock */,
 				C94DCAA620EA597700C0D69C /* Sources */,
 				C94DCAA720EA597700C0D69C /* Frameworks */,
 				C94DCAA820EA597700C0D69C /* Resources */,
+				4C9CA0B338D36315EE6BD461 /* [CP] Embed Pods Frameworks */,
+				322385AEB0BE0F680A0CF1D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +458,7 @@
 				TargetAttributes = {
 					C94DCA8A20EA597600C0D69C = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					C94DCA9E20EA597700C0D69C = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -230,8 +496,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C94DCA9920EA597700C0D69C /* LaunchScreen.storyboard in Resources */,
+				C90131E521084F98005E25D1 /* WelcomeSlider.xib in Resources */,
+				C9D2B6DD20F8D53E002B6BEF /* Logged.storyboard in Resources */,
+				C90131FC210B297F005E25D1 /* PopRests.xib in Resources */,
+				C9013201210B518D005E25D1 /* NearRests.xib in Resources */,
+				C90131C9210600C4005E25D1 /* MenuCell.xib in Resources */,
 				C94DCA9620EA597700C0D69C /* Assets.xcassets in Resources */,
 				C94DCA9420EA597600C0D69C /* Main.storyboard in Resources */,
+				C92EA41220F5E97100050B77 /* BalooBhai-Regular.ttf in Resources */,
+				C92EA41320F5E97400050B77 /* VarelaRound-Regular.ttf in Resources */,
+				C90131ED2108A322005E25D1 /* MainPageFirstSlider.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +525,195 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3037B6946E8082FD035432F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-asum_denemeTests/Pods-asum_denemeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		322385AEB0BE0F680A0CF1D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-asum_denemeUITests/Pods-asum_denemeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44AB82F49900000585646897 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-asum_denemeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AC33194C3E74EF45FFB1C4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-asum_deneme/Pods-asum_deneme-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C9CA0B338D36315EE6BD461 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-asum_denemeUITests/Pods-asum_denemeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		669D0D3132CB4C1A4A9B4580 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-asum_deneme-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB5AD9A3478666AA546654C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-asum_denemeTests/Pods-asum_denemeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB349059BE0E17BCE71056C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-asum_deneme/Pods-asum_deneme-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-asum_deneme/Pods-asum_deneme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBAAE0CF3B3BE649C02D4B8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-asum_denemeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C94DCA8720EA597600C0D69C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C984E6F220FF52B9009E00C1 /* SWRevealViewController.m in Sources */,
+				C90131C8210600C4005E25D1 /* MenuCell.swift in Sources */,
+				C90131C32105E976005E25D1 /* sideMenuVC.swift in Sources */,
+				C90131E721084FA3005E25D1 /* WelcomeSlider.swift in Sources */,
+				C90131FF210B5183005E25D1 /* NearRests.swift in Sources */,
+				C90131D421075337005E25D1 /* offersVC.swift in Sources */,
+				C90131FA210B2975005E25D1 /* PopRests.swift in Sources */,
+				C9D2B6DA20F8D4DC002B6BEF /* signUpViewController.swift in Sources */,
+				C90131CE21074879005E25D1 /* profileVC.swift in Sources */,
+				C90131D621075394005E25D1 /* favsVC.swift in Sources */,
+				C90131D22107512B005E25D1 /* restsVC.swift in Sources */,
+				FEF3631E2114EB0C000E183C /* PopRestVC.swift in Sources */,
+				C90131D021074BA2005E25D1 /* BaseMenuController.swift in Sources */,
+				C96FF26A2111E87900F5E31F /* Restoran.swift in Sources */,
+				C90131DA21075413005E25D1 /* settingsVC.swift in Sources */,
+				C90131D8210753D4005E25D1 /* helpVC.swift in Sources */,
 				C94DCA9120EA597600C0D69C /* ViewController.swift in Sources */,
+				FEF363192114D2F8000E183C /* CampainVC.swift in Sources */,
+				C90131F02108A341005E25D1 /* MainPageFirstSlider.swift in Sources */,
+				C96FF270211435D900F5E31F /* RestoranS.swift in Sources */,
+				C90131DC2107545D005E25D1 /* logOutVC.swift in Sources */,
+				C96FF26E2114321B00F5E31F /* RestDetailVC.swift in Sources */,
+				C92EA40C20F4D1E600050B77 /* FirstLoginViewController.swift in Sources */,
+				C96FF26C2114300C00F5E31F /* RestoranCell.swift in Sources */,
+				FEF363202114EB27000E183C /* PopRestViewCell.swift in Sources */,
+				C984E6F420FF5905009E00C1 /* HomeVC.swift in Sources */,
+				FEF3631C2114D5B1000E183C /* CampainViewCell.swift in Sources */,
+				C9B5A8F321107159003BA9B3 /* Kampanya.swift in Sources */,
 				C94DCA8F20EA597600C0D69C /* AppDelegate.swift in Sources */,
+				C90131F7210B0A34005E25D1 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,10 +884,12 @@
 		};
 		C94DCAB420EA597700C0D69C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8B020E2C5B642AB15B43B6F /* Pods-asum_deneme.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K7936PE4HP;
+				DEVELOPMENT_TEAM = PHYFDEACHD;
 				INFOPLIST_FILE = asum_deneme/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -439,6 +897,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yaz.helloworld.asum-deneme";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "asum_deneme/SWReveal/asum_deneme-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -446,10 +906,12 @@
 		};
 		C94DCAB520EA597700C0D69C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1027923D8A5187AC51E3AB9 /* Pods-asum_deneme.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K7936PE4HP;
+				DEVELOPMENT_TEAM = PHYFDEACHD;
 				INFOPLIST_FILE = asum_deneme/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +919,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yaz.helloworld.asum-deneme";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "asum_deneme/SWReveal/asum_deneme-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,6 +927,7 @@
 		};
 		C94DCAB720EA597700C0D69C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D315C3E61093CBF8A4192170 /* Pods-asum_denemeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +949,7 @@
 		};
 		C94DCAB820EA597700C0D69C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 004F63FCFEF4B98C3CAC8B2C /* Pods-asum_denemeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +971,7 @@
 		};
 		C94DCABA20EA597700C0D69C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D79689C2068C95E437E4CEB /* Pods-asum_denemeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +992,7 @@
 		};
 		C94DCABB20EA597700C0D69C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD980578A868AA71CA52F48 /* Pods-asum_denemeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

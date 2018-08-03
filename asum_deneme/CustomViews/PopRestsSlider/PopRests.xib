@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BalooBhai-Regular.ttf">
+            <string>BalooBhai-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PopRests" customModule="asum_deneme" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mekanlar_slider1" translatesAutoresizingMaskIntoConstraints="NO" id="gEk-Qn-jMQ">
+                    <rect key="frame" x="0.0" y="0.0" width="250" height="150"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ciao Ciao" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yzb-P4-leH">
+                    <rect key="frame" x="0.0" y="52" width="250" height="47"/>
+                    <fontDescription key="fontDescription" name="BalooBhai-Regular" family="Baloo Bhai" pointSize="22"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="gEk-Qn-jMQ" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="AWh-4Z-O9K"/>
+                <constraint firstItem="Yzb-P4-leH" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="52" id="Dnn-1T-imf"/>
+                <constraint firstAttribute="trailing" secondItem="gEk-Qn-jMQ" secondAttribute="trailing" id="Hs4-Iy-Kso"/>
+                <constraint firstItem="gEk-Qn-jMQ" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="UAx-km-3XM"/>
+                <constraint firstItem="gEk-Qn-jMQ" firstAttribute="trailing" secondItem="Yzb-P4-leH" secondAttribute="trailing" id="Y6Z-gb-E8c"/>
+                <constraint firstItem="gEk-Qn-jMQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gqS-ao-kif"/>
+                <constraint firstItem="gEk-Qn-jMQ" firstAttribute="centerY" secondItem="Yzb-P4-leH" secondAttribute="centerY" id="mK1-0d-o1G"/>
+                <constraint firstItem="gEk-Qn-jMQ" firstAttribute="leading" secondItem="Yzb-P4-leH" secondAttribute="leading" id="zju-zj-YpB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="RestImage" destination="gEk-Qn-jMQ" id="5dH-Vx-XzU"/>
+                <outlet property="RestName" destination="Yzb-P4-leH" id="TY9-p2-9qJ"/>
+            </connections>
+            <point key="canvasLocation" x="15" y="-189"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="mekanlar_slider1" width="476" height="268"/>
+    </resources>
+</document>
