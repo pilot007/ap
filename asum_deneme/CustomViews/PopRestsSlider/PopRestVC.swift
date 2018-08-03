@@ -8,6 +8,8 @@
 
 import UIKit
 import Alamofire
+import SwiftyJSON
+
 
 class PopRestVC: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
@@ -15,7 +17,7 @@ class PopRestVC: UIViewController, UICollectionViewDataSource, UICollectionViewD
     @IBOutlet weak var collectionView: UICollectionView!
     
     
-    var arrayRest = [Restoran]()
+    var arrayRest = [PopRest]()
     
     var messageFrame = UIView()
     var activityIndicator = UIActivityIndicatorView()
@@ -65,15 +67,16 @@ class PopRestVC: UIViewController, UICollectionViewDataSource, UICollectionViewD
                     
                     let imageUrl = URL(string: restoranLogoYolu!)!
                     let imageData = try! Data(contentsOf: imageUrl)
-                    let image = UIImage(data: imageData)
+                    let images = UIImage(data: imageData)
                     
-                    let r1 = Restoran(image: image!, title: subeAdi!, desc: mesafe!, adres: subeAdres!, telefon: subeTelefon!, calismaBaslangic: calismaBaslangic!,
-                                      calismaBitis: calismaBitis!, restoranUrunleri: restoranUrunleriArray, subeEnlem: subeEnlem!, subeBoylam: subeBoylam! )
+                    
+                    let r1 = PopRest(image: images!, text: subeAdi!)
+                    
                     self.arrayRest.append(r1)
                 }
                 //print("refsh olacak")
                 self.messageFrame.removeFromSuperview()
-                self.tableView.reloadData()
+                self.collectionView.reloadData()
             } else {
                 print("Error: \(String(describing: response.result.error))")
             }

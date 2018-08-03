@@ -11,6 +11,6 @@ import UIKit
 class PopRestViewCell: UICollectionViewCell {
     
         @IBOutlet weak var PopRestImage: UIImageView!
-        func setRestoran(r: Restoran) {
+        func setRestoran(r: PopRest) {
             PopRestImage.image = r.image
         }}
