@@ -53,6 +53,7 @@
 		FEF3631C2114D5B1000E183C /* CampainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF3631B2114D5B1000E183C /* CampainViewCell.swift */; };
 		FEF3631E2114EB0C000E183C /* PopRestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF3631D2114EB0C000E183C /* PopRestVC.swift */; };
 		FEF363202114EB27000E183C /* PopRestViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF3631F2114EB27000E183C /* PopRestViewCell.swift */; };
+		FEF363222114F565000E183C /* PopRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF363212114F565000E183C /* PopRest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +134,7 @@
 		FEF3631B2114D5B1000E183C /* CampainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampainViewCell.swift; sourceTree = "<group>"; };
 		FEF3631D2114EB0C000E183C /* PopRestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopRestVC.swift; sourceTree = "<group>"; };
 		FEF3631F2114EB27000E183C /* PopRestViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopRestViewCell.swift; sourceTree = "<group>"; };
+		FEF363212114F565000E183C /* PopRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopRest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +212,7 @@
 				C9B5A8F221107159003BA9B3 /* Kampanya.swift */,
 				C96FF2692111E87900F5E31F /* Restoran.swift */,
 				C96FF26F211435D900F5E31F /* RestoranS.swift */,
+				FEF363212114F565000E183C /* PopRest.swift */,
 			);
 			path = CustomObjects;
 			sourceTree = "<group>";
@@ -709,6 +712,7 @@
 				C92EA40C20F4D1E600050B77 /* FirstLoginViewController.swift in Sources */,
 				C96FF26C2114300C00F5E31F /* RestoranCell.swift in Sources */,
 				FEF363202114EB27000E183C /* PopRestViewCell.swift in Sources */,
+				FEF363222114F565000E183C /* PopRest.swift in Sources */,
 				C984E6F420FF5905009E00C1 /* HomeVC.swift in Sources */,
 				FEF3631C2114D5B1000E183C /* CampainViewCell.swift in Sources */,
 				C9B5A8F321107159003BA9B3 /* Kampanya.swift in Sources */,
