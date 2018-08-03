@@ -14,7 +14,7 @@ import SwiftyJSON
 class PopRestVC: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
     
-    @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var collectionViewPopRest: UICollectionView!
     
     
     var arrayRest = [PopRest]()
@@ -76,7 +76,7 @@ class PopRestVC: UIViewController, UICollectionViewDataSource, UICollectionViewD
                 }
                 //print("refsh olacak")
                 self.messageFrame.removeFromSuperview()
-                self.collectionView.reloadData()
+                self.collectionViewPopRest.reloadData()
             } else {
                 print("Error: \(String(describing: response.result.error))")
             }
