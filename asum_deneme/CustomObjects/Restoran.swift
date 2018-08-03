@@ -56,8 +56,34 @@ class Restoran {
         self.RestoranUrunleri  = RestoranUrunleri
         self.FavoriRestorantMi  = FavoriRestorantMi
         self.LogoPath  = LogoPath
+        self.image = image
     }
     
+    public init(image : UIImage,SubeAdi : String, SubeId : String, SubeEnlem : String, SubeBoylam : String) {
+        self.SubeAdi  = SubeAdi
+        self.SubeId  = SubeId
+        self.SubeEnlem  = SubeEnlem
+        self.SubeBoylam  = SubeBoylam
+        
+        self.KurumLogo  = ""
+        self.Mesafe  = ""
+        self.Telefon = ""
+        self.CalismaZamaniBaslangic  = ""
+        self.CalismaZamaniBitis  = ""
+        self.ResmiTatilCalisma  = ""
+        self.CumartesiCalisma  = ""
+        self.PazarCalisma  = ""
+        self.Ilce  = ""
+        self.SubeMahalle  = ""
+        self.SubeSokak  = ""
+        self.SubeBinaNo  = ""
+        self.SubeKapiNo  = ""
+        self.Adress  = ""
+        self.RestoranUrunleri  = ""
+        self.FavoriRestorantMi  = 1
+        self.LogoPath  = ""
+        self.image = image
+    }
     public init(object : NSDictionary)
     {
         SubeAdi = object["SubeAdi"] as! String
@@ -81,6 +107,7 @@ class Restoran {
         RestoranUrunleri = object["RestoranUrunleri"] as! String
         FavoriRestorantMi = object["FavoriRestorantMi"] as! Int
         LogoPath = object["LogoPath"] as! String
+        image = object["image"] as! UIImage
     }
     
 
