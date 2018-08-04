@@ -102,10 +102,27 @@ class PopRestVC: UIViewController, UICollectionViewDataSource, UICollectionViewD
         view.addSubview(messageFrame)
     }
     
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "PopRest2Detail"
+        {
+            let destVC = segue.destination as! RestDetailVC
+            destVC.rest = sender as? RestoranS
+        }
+    }
 }
 
 extension PopRestVC {
     //1
+    
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        print("uc")
+        let resto = arrayRest[indexPath.row]
+        print(resto)
+        performSegue(withIdentifier: "PopRest2Detail", sender: resto)
+    }
+    
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return arrayRest.count
     }

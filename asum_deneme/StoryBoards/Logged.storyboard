@@ -113,7 +113,6 @@
                         <outlet property="nearRestScrollView" destination="5RL-tN-S1q" id="2U9-yb-oqU"/>
                         <outlet property="openMenu" destination="Odn-HR-13j" id="uDV-q6-3AC"/>
                         <outlet property="popRestsScrollView" destination="VWK-w3-gYl" id="cId-46-M8U"/>
-                        <segue destination="CzS-ce-eQq" kind="show" identifier="Home2RestDetail" id="9bZ-i9-LLX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kzC-8E-X7J" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -600,11 +599,12 @@
                     <connections>
                         <outlet property="collectionView" destination="nHy-j3-PAe" id="K5W-ek-MVo"/>
                         <outlet property="collectionViewPopRest" destination="YfQ-mX-0X0" id="84W-tc-xkm"/>
+                        <segue destination="CzS-ce-eQq" kind="show" identifier="PopRest2Detail" id="jPp-k5-OJI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DcE-uf-oxm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3636.2318840579715" y="-53.804347826086961"/>
+            <point key="canvasLocation" x="-2704" y="-1269"/>
         </scene>
         <!--OffersVC-->
         <scene sceneID="9rD-SB-pay">
@@ -751,7 +751,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rhc-vw-K18">
-                                <rect key="frame" x="84" y="28" width="246" height="147.33333333333334"/>
+                                <rect key="frame" x="84" y="72.000000000000014" width="246" height="147.33333333333337"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PHc-CH-sTz">
                                 <rect key="frame" x="0.0" y="647.66666666666663" width="414" height="88.333333333333371"/>
@@ -762,19 +762,19 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Başlık" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UL6-pb-NdE">
-                                <rect key="frame" x="84" y="183.33333333333334" width="246" height="51.333333333333343"/>
+                                <rect key="frame" x="84" y="227.33333333333334" width="246" height="51.333333333333343"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adres" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4JF-dt-t95">
-                                <rect key="frame" x="43" y="242.66666666666666" width="327" height="73.666666666666657"/>
+                                <rect key="frame" x="43" y="286.66666666666669" width="327" height="73.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.4823529412" green="0.4823529412" blue="0.4823529412" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jeP-Kc-KQ9">
-                                <rect key="frame" x="84" y="369" width="246" height="73.666666666666686"/>
+                                <rect key="frame" x="84" y="413" width="246" height="73.666666666666686"/>
                                 <color key="backgroundColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Çalışma Saatleri:  Hafta içi 09:00 - 20:00 Hafta Sonu 10:00 - 22:00">
@@ -787,7 +787,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="gcu-Cx-6br">
-                                <rect key="frame" x="0.0" y="450.66666666666669" width="414" height="154.66666666666669"/>
+                                <rect key="frame" x="0.0" y="494.66666666666669" width="414" height="154.66666666666669"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="aXr-vA-Phr">
                                     <size key="itemSize" width="76" height="72"/>
@@ -824,7 +824,7 @@
                                 </connections>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Telefon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bG2-CY-4Z5">
-                                <rect key="frame" x="43" y="324.33333333333331" width="327" height="36.666666666666686"/>
+                                <rect key="frame" x="43" y="368.33333333333331" width="327" height="36.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.4823529412" green="0.4823529412" blue="0.4823529412" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -895,7 +895,7 @@
         </namedColor>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="9bZ-i9-LLX"/>
+        <segue reference="jPp-k5-OJI"/>
         <segue reference="CRg-0G-8dW"/>
     </inferredMetricsTieBreakers>
 </document>

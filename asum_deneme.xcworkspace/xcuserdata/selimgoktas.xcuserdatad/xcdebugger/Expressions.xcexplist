@@ -3,6 +3,14 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "CampainVC.prepare(for:sender:):CampainVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "CampainVC.numberOfSections(in:):CampainVC.swift">
          <PersistentStrings>
             <PersistentString

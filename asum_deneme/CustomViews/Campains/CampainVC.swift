@@ -164,10 +164,71 @@ class CampainVC: UIViewController, UICollectionViewDataSource, UICollectionViewD
         view.addSubview(messageFrame)
     }
 
-}
+    
+    
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "PopRest2Detail"
+        {
+            let destVC = segue.destination as! RestDetailVC
+            
+              let tt = sender as? Restoran
+            
+            
+            var restoranUrunleriArray = [String]()
+            if (tt!.RestoranUrunleri.isEmpty )
+            {
+                //
+            }
+                else
+            {
+            let result = tt!.RestoranUrunleri.split(separator: ",")
+            for restoranUrun in result{
+                //Array burada dolduruluyor
+                restoranUrunleriArray.append(String(restoranUrun))
+                }
+            }
 
-extension CampainVC {
-    //1
+            
+            let temp = RestoranS(image: tt!.image,
+                                 title: tt!.SubeAdi,
+                                 desc: tt!.Adress,
+                                 adres: tt!.Adress,
+                                 telefon: tt!.Telefon,
+                                 calismaBaslangic: tt!.CalismaZamaniBaslangic,
+                                 calismaBitis: tt!.CalismaZamaniBitis,
+                                 restoranUrunleri: restoranUrunleriArray)
+          
+            destVC.rest = temp
+        }
+    }
+ 
+ 
+    
+    
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath)
+    {
+        print("uc")
+        
+        if collectionView == self.collectionView {
+            
+            let resto = arrayOffer[indexPath.row]
+            print(resto)
+            performSegue(withIdentifier: "PopRest2Detail", sender: resto)
+        }
+        
+        
+        if collectionView == self.collectionViewPopRest {
+            
+            let resto = arrayRest[indexPath.row]
+            print(resto)
+            performSegue(withIdentifier: "PopRest2Detail", sender: resto)
+        }
+    }
+    
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         
         var count:Int?
@@ -215,5 +276,56 @@ extension CampainVC {
         }
     }
     
-
+/*
+    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+        // 1
+        // Return the number of sections
+        var count:Int?
+        
+        if collectionView == self.collectionView {
+            count = arrayOffer.count
+        }
+        
+        if collectionView == self.collectionViewPopRest {
+            count =  arrayRest.count
+        }
+        return count!
+    }
+    
+    
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        // 2
+        // Return the number of items in the section
+        var count:Int?
+        
+        if collectionView == self.collectionView {
+            count = arrayOffer.count
+        }
+        
+        if collectionView == self.collectionViewPopRest {
+            count =  arrayRest.count
+        }
+        return count!
+    }
+    
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        // 3
+        
+        if collectionView == self.collectionView {
+            
+            let campain = arrayOffer[indexPath.row]
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier : "CampainViewCell", for : indexPath as IndexPath) as! CampainViewCell
+            cell.setCampain(r: campain)
+            return cell
+        }
+        else
+            /*if collectionView == self.collectionViewPopRest*/ {
+                
+                let popRest = arrayRest[indexPath.row]
+                let cell = collectionView.dequeueReusableCell(withReuseIdentifier : "popRestViewCell", for : indexPath as IndexPath) as! PopRestViewCell
+                cell.setRestoran(r: popRest)
+                return cell
+        }
+    }
+    */
 }
